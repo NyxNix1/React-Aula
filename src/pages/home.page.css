@@ -1,0 +1,46 @@
+/* home.page.css */
+
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  color: #2c3e50;
+}
+
+main {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.button-group {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.button-link {
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  user-select: none;
+}
+
+.button-link:hover,
+.button-link:focus {
+  background-color: #2980b9;
+  outline: none;
+}
+
+
